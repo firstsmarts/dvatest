@@ -1,0 +1,32 @@
+.left_nav{
+    background: #001529;
+}
+.left_nav{
+    min-height: 100vh;
+    /* width: 200px; */
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    transition: all 200ms;
+}
+.logobox{
+    height: 58px;
+    color: #fff;
+    line-height: 58px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    transition: all 200ms;
+}
+.togglebtn{
+    position: absolute;
+    right: -58px;
+    width: 58px;
+    height: 58px;
+    z-index: 100;
+    font-size: 15px;
+    color: #666;
+}
+.togglebtn:hover{
+    background: #e6f1f9;
+    cursor: pointer;
+}

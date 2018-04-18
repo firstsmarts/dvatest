@@ -1,0 +1,17 @@
+.stulist{
+    flex: 1;
+}
+.searchbox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.dosearch{
+    margin-left: 20px;
+}
+.search-input{
+    flex: 0 0 500px;
+}
+.tablebody {
+    margin: 1rem;
+}
