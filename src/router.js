@@ -1,7 +1,7 @@
 import React from 'react'
 import {Router, Route, Switch} from 'dva/router'
 import dynamic from 'dva/dynamic'
-import user from './models/user'
+import global from './models/global'
 const Index = (app) => dynamic({
     app,
     models: () => [global],
@@ -10,7 +10,7 @@ const Index = (app) => dynamic({
 
 const User = (app) => dynamic({
     app,
-    models: () => [import('./models/global')],
+    models: () => [import('./models/user')],
     component: () => import('./pages/user')
 })
 
